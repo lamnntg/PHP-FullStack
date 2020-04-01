@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    list-style: none; /* khong co dau tron phia truoc*/
+}
+
+
+#menu > li > ul {
+    display: none;
+
+}
+
+#menu > li {
+    display: inline-block;
+   position: relative;
+}
+#menu > li > a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 25px;
+    
+}
+#menu{
+    height: 50px;
+    background: black;
+}
+
+
+
+#menu > li:hover > ul{
+    display: block;
+    position: absolute;
+    background-color: black;
+    left: 0px;
+    width: 100%;
+    
+    
+}
+#menu > li > ul > li >a {
+    color: white;
+    text-decoration: none;
+   
+}
+#menu > li > a:hover {
+    background-color: rgb(43, 41, 41);
+}

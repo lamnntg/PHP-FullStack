@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#content {
+    background-color: gray;
+    border: 1px solid black;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    
+
+}
+
+#content div {
+    border: 1px solid red;
+}
+
+
+#sidebar1{
+    flex-grow: 1;
+}
+#sidebar2{
+    flex-grow: 4;
+    
+}
+#sidebar3{
+    flex-grow: 1;
+}

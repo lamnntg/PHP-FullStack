@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#slidebar1{
+    width: 200px;
+    border: 2px solid red;
+    float: left;
+}
+#content{
+    width: calc(100% - 400px);
+    border: 2px solid green;
+    float: left;
+}
+#slidebar2{
+    width: 200px;
+    border: 2px solid red;
+    float: left;
+}
+body{
+    background-color: aquamarine;
+}

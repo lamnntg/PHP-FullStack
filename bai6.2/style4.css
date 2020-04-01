@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+#wapper {
+    border: 1px solid red;
+    display: flex;
+    max-width: 600px;
+    height: 400px;
+    flex-direction: column ;
+}
+
+#wapper div{
+width: 200px;
+border: 1px solid black;
+}
+#sidebar1{
+    flex-basis: 200px;
+}

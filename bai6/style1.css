@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+#title-top{
+    margin: auto 0 ;
+    color: aliceblue;
+ 
+}
+
+
+#header{
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: fe;
+    
+}
+#header ul{
+    margin: auto 0;
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+#header ul li a {
+    color: aliceblue;
+    display: inline-block;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}

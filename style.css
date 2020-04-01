@@ -1,0 +1,48 @@
+h2 {
+color: Red;
+font-size:30px;
+}
+
+#noi-dung {
+    color: aquamarine;
+    font-size: 20px;
+}
+
+.ten-lop{
+    background-color: rgb(235, 102, 25);
+}
+
+#menu{
+border: 2px solid red;
+
+}
+
+#menu li {
+    border-bottom: 1px solid red;
+}
+
+#quang-cao > div > p {
+    font-size: 25px;
+    color: greenyellow;
+}
+
+.hs-gioi
+{
+    color: brown;
+}
+.hk-tot{
+    color: green;
+}
+
+.hk-tot.hs-gioi{
+    color: coral;
+}
+
+#danh-sach-hoc-sinh .hs-gioi.hk-tot, .ten-lop{
+
+    font-size: 30px;
+}
+
+#li1 :first-child{
+    color : red;
+}

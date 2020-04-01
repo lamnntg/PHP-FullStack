@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#clear{
+    clear: both;
+}
+body{
+    background: #f2f2f2;
+}
+
+header{
+    background-color: black;
+    height: 50px;
+}
+
+#menu-wapper{
+    background-color: gray;
+    height: 40px;
+}
+#menu ul li {
+    display: inline;
+}
+#menu {
+    width: 900px;
+    margin: 0px auto;
+}
+#main{
+    width: 900px;
+    margin: 0px auto;   
+}
+
+#main-section{
+    background: white;
+}
+#top-ads{
+    height: 250px;
+    background : #bebebe;
+}
+
+
+#content{
+    float: left;
+    width: 600px;
+}
+#sidebar{
+    float: right;
+    width: 300px;
+}
+#hot-album{
+    height: 250px;
+    background: greenyellow;
+}
+#sub-album div{
+    width: 20%;
+    float: left;
+    height: 20px;
+    border: 2px solid black;
+}

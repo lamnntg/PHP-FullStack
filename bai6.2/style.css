@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#wapper{
+    width: 500px;
+    background: gray;
+    border: 1px solid red;
+    display: flex;
+    
+}
+#wapper div{
+    border: 1px solid black;
+    background-color: aqua;
+    width: 35%;
+}
+#sidebar1{
+    background: red !important;
+}
+
+
+
+
+
+#wapper2{
+    width: 1000px;
+    background: gray;
+    border: 1px solid red;
+    display: flex;
+}
+#wapper2 div{
+    border: 1px solid black;
+    background-color: aqua;
+   
+}
+
+#sidebar3{
+    flex-grow: 1;
+}
+#sidebar4{
+    flex-grow: 2;
+}
+#content2{
+    flex-grow: 3;
+}
+#div1{
+    width: 500px;
+}
+
+
+
+
+#main{
+ max-width: 900px;
+ background-color: aquamarine;
+ display: flex;
+}
+
+#main div{
+    border: 1px solid red;
+    width: 300px;
+}
+#main-body1{
+    flex-shrink: 1;
+}
+#main-body2{
+    flex-shrink: 3;
+}
+
+#main-body3{
+    flex-shrink: 1;
+}
+
+
+#justify-content{
+    max-width: 900px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content:space-between;
+   }
+   
+   #justify-content div{
+       border: 1px solid red;
+   }

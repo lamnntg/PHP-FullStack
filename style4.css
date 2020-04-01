@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1 {
+    float: left;
+    width: 30%;
+    border: 1px solid red;
+    
+}
+
+#div1 {
+    float: right;
+    width: 70%;
+    border: 3px solid green;
+    
+}
+
+h2{
+    float: left;
+    border: 1px solid red;
+    width: 200px;
+}
+#div2{
+    float: right;
+    width: calc(100%-200px);
+    border: 2px solid green;
+}

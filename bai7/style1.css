@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: font-web;
+    src: url(./UVNKeChuyen1.TTF);
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    
+}
+
+#menu {
+    
+    background-color: gray;
+}
+ul#menu li {
+    display: inline-block;
+    
+}
+ul#menu li a {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    height: 50px;
+    line-height: 50px;
+}
+#icon{
+    font-size: 200px;
+    color: red;
+}
+#learn {
+    color: rebeccapurple;
+    font-size: 20px;
+    font-weight: bolder;
+        font-family: Roboto, 'Times New Roman', Times, serif, sans-serif;
+}

@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+body{
+    margin-top: 20px;
+}
+#slider {
+    width: 900px;
+    height: 600px;
+    color: aliceblue;
+    background: gray;
+    margin: 0 auto;
+    position: relative;
+    background-image: url(./ltv.png);
+    background-repeat: no-repeat;
+    /* co nhieu thuoc tinh cua repeat */
+  /*  background-position: right 10px top 20px;*/
+  background-size: cover;/* zoom ra full div */
+  background-attachment: scroll; /* local : troi theo scroll , scroll fix vi tri theo div dad*/
+  overflow: scroll;
+
+}
+
+#prev{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+}
+#next{
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+}
+

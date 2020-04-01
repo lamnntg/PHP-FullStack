@@ -1,0 +1,12 @@
+[type="text"] {
+    color: red;
+}
+
+
+ul#menu li:first-child {
+    color:red;
+}
+
+#acc + li{
+    color: green;
+}
